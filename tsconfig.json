@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        /* Basic Options */
+        "target": "es5",
+        "module": "esnext",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "jsx": "preserve",
+        "noEmit": true,
+
+        /* Strict Type-Checking Options */
+        "strict": true,
+        "typeRoots": ["types", "node_modules/@types"],
+
+        /* Additional Checks */
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "importHelpers": true,
+        "removeComments": true,
+
+        /* Module Resolution Options */
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        "allowSyntheticDefaultImports": true,
+
+        /* Advanced Options */
+        "skipLibCheck": true /* Skip type checking of declaration files. */,
+        "forceConsistentCasingInFileNames": true /* Disallow 
+        inconsistently-cased references to the same file. */,
+        "allowJs": true
+    },
+    "include": ["next-env.d.ts", "src"],
+    "exclude": ["node_modules"]
+}
